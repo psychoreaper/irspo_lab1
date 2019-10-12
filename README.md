@@ -1,2 +1,3 @@
 # irspo_lab1
-$ develop
+
+All files done for lab 1
