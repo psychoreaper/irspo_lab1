@@ -2,3 +2,4 @@
 $ develop
 $ feature
 $ release
+$ hotfix
