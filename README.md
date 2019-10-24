@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-# irspo_lab1
-=======
 # Арифметические действия с дробями
 
 Лабораторные работы 1 и 2 по Инструментальным средствам разработки программного обеспечения
@@ -37,4 +34,4 @@ Give an example
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
->>>>>>> Stashed changes
+
