@@ -20,6 +20,8 @@ public class Main {
         FileInput input = new FileInput();
         input.inp(fset2);
 
+        fset2.sumSet();
+
         FileOutput output = new FileOutput();
         output.outp(fset2);
     }
