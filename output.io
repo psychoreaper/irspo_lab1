@@ -1,0 +1,1 @@
+fraction set maximum: 4.5, minimum: -6.0
