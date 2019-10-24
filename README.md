@@ -6,6 +6,7 @@
 
 Работа производится с простыми дробями.
 Программа умеет:
+
 - хранить набор дробей
 - подсчитывать сумму двух простых дробей
 - находить минимум и максимум в наборе дробей
@@ -13,25 +14,37 @@
 ## Новые фичи
 
 Добавлены в версии 2.0:
-- файловый ввод
+
 - файловый вывод
 - консольный интерфейс
 - подсчёт суммы всех дробей в наборе
 - вывод всего набора
 
-### Break down into end to end tests
+### Файловый ввод
 
-Explain what these tests test and why
+Вводит набор дробей из файла input.io в переданный в качестве аргумента набор дробей.
 
 ```
-Give an example
+FractionSet fset2 = new FractionSet();
+FileInput input = new FileInput();
+input.inp(fset2);
 ```
 
-## Работа с программой
+### Файловый ввод
 
-## Built With
+Вводит информацию из файла input.io в переданный в качестве аргумента набор дробей. Вводятся только целые числа и дроби в формате 3/4 или -3/4.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+```
+FractionSet fset2 = new FractionSet();
+FileInput input = new FileInput();
+input.inp(fset2);
+```
 
+### Файловый вывод
+
+Выводит минимум и максимум набора дробей в файл output.io.
+
+```
+FileOutput output = new FileOutput();
+output.outp(fset2);
+```
