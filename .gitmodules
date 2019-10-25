@@ -1,3 +1,6 @@
 [submodule "generate2"]
 	path = generate2
 	url = https://github.com/generate/generate-git
+[submodule "rack2"]
+	path = rack2
+	url = https://github.com/rack/rack
