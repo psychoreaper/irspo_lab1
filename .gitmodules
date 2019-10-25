@@ -1,0 +1,3 @@
+[submodule "generate2"]
+	path = generate2
+	url = https://github.com/generate/generate-git
