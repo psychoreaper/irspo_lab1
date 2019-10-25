@@ -172,4 +172,22 @@ public class FractionSet {
         sum__ += sum;
         return sum__;
     }
+
+    public void outputSet() {
+        sum__ = 0;
+        System.out.println("output");
+        outputTraversal(root);
+    }
+
+    private double outputTraversal(Node root) {
+        double sum = 0;
+        if (root != null) {
+            System.out.println(root.value.view());
+            outputTraversal(root.left);
+            outputTraversal(root.right);
+        }
+        sum__ += sum;
+        return sum__;
+    }
+
 }

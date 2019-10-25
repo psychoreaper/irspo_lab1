@@ -22,6 +22,8 @@ public class Main {
 
         fset2.sumSet();
 
+        fset2.outputSet();
+
         FileOutput output = new FileOutput();
         output.outp(fset2);
     }
